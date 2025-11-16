@@ -1,0 +1,41 @@
+
+
+
+nav{
+    background: transparent !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: black;
+    padding: 50px 20px;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 8px 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;              /* tinggi tombol tetap */
+    display: flex;             /* pakai flex untuk align tengah */
+    align-items: center;       /* vertikal tengah */
+    justify-content: center;   /* horizontal tengah */    
+}
+
+/* Hover effect */
+.login-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #f4f4f4;
+    color: rgb(255, 255, 255);
+}

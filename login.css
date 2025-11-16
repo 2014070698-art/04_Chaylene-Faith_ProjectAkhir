@@ -1,0 +1,157 @@
+nav{
+    background: transparent !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: black;
+    padding: 50px 20px;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; 
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 8px 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;              /* tinggi tombol tetap */
+    display: flex;             /* pakai flex untuk align tengah */
+    align-items: center;       /* vertikal tengah */
+    justify-content: center;   /* horizontal tengah */    
+}
+
+/* Hover effect */
+.login-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #f4f4f4;
+    color: rgb(255, 255, 255);
+}
+
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    }
+      body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg.png);
+    }
+    main{
+      margin-top: 80px;
+      flex: 1;
+    }
+
+
+          html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    }
+      body {
+    padding-top: 80px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    }
+
+      .my-footer {
+   width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto;
+}
+
+.my-footer p {
+    margin: 5px 0;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-creator {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-tagline {
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.8;
+}
+main { 
+  margin-top: 50px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.square {
+    background: white;
+    width: 500px;          /* ukuran LEBIH BESAR */
+    padding: 60px 50px;    /* padding diperbesar */
+    border-radius: 25px;
+    color: black;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.square h2 {
+    font-size: 40px;       /* judul lebih besar */
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.square input {
+    width: 100%;
+    padding: 18px;         /* input lebih besar */
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 1px solid #bbb;
+    font-size: 18px;       /* tulisan input besar */
+}
+
+.square button {
+    width: 100%;
+    padding: 18px;
+    margin-top: 20px;
+    background: #860000ff;
+    border: none;
+    color: white;
+    font-size: 20px;       /* tombol besar */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.square button:hover {
+    background: #d13a3aff;
+}
+
+.square p {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
